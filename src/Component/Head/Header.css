@@ -1,0 +1,92 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  .navbar a{
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s; 
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .nav-div-ul{
+    margin-left: 200px;
+  }
+  .navbar a:hover{
+    transform: scale(1.05);  
+  }
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 0.5s; 
+}
+.nav-menu li:hover{
+  cursor: pointer;
+
+
+}
+.nav-connect{
+  
+     font-size: 30px;
+    cursor: pointer;
+     transition: 0.5s; 
+     margin-left: 250px;
+ } 
+
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  cursor: pointer;
+}
+.img6{
+  transition: 0.3s;
+}
+.img6:hover{
+  cursor: pointer;
+  transform:  scale(2.01);
+  transition: 0.3s;
+}
+.img7{
+  transition: 0.3s;
+}
+.img7:hover{
+  cursor: pointer;
+  transform:  scale(2.01);
+  transition: 0.3s;
+}
+.img8{
+  transition: 0.3s;
+}
+.img8:hover{
+  cursor: pointer;
+  transform:  scale(2.01);
+  transition: 0.3s;
+}
+@media(max-width:350px){
+  .img6{
+    display: none;
+  }
+  .img7{
+    display: none;
+  }
+  .img8{
+    display: none;
+  }
+  
+
+}
