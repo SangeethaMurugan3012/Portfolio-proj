@@ -51,12 +51,12 @@ const Mywork = () => {
         </div>
         <div className="mywork-container">
      {mywork_data.map((Work,index)=>{
-        return <a href=""><img key={index} src={Work.w_img} alt="" />Link</a>
+        return <a href="/"><img key={index} src={Work.w_img} alt="#N" />Link</a>
      })}
         </div>
        <div className="mywork-showmore">
             <p>Show More</p>
-            <img src={arrow_icon} width={20} height={30}className='mt-2' alt="" />
+            <img src={arrow_icon} width={20} height={30}className='mt-2' alt="#N" />
         </div>
     </div>
   )
