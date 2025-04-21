@@ -19,9 +19,9 @@
     justify-content: space-between;
 
   }
-  .nav-div-ul{
+  /* .nav-div-ul{
     margin-left: 200px;
-  }
+  } */
   .navbar a:hover{
     transform: scale(1.05);  
   }
@@ -31,7 +31,7 @@
     list-style: none;
     gap: 30px;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     transition: 0.5s; 
 }
 .nav-menu li:hover{
@@ -44,15 +44,15 @@
      font-size: 30px;
     cursor: pointer;
      transition: 0.5s; 
-     margin-left: 250px;
+     /* margin-left: 250px; */
  } 
 
-.nav-menu li{
+/* .nav-menu li{
   display: flex;
   flex-direction: column;
   gap: 35px;
   cursor: pointer;
-}
+} */
 .img6{
   transition: 0.3s;
 }
@@ -76,17 +76,4 @@
   cursor: pointer;
   transform:  scale(2.01);
   transition: 0.3s;
-}
-@media(max-width:350px){
-  .img6{
-    display: none;
-  }
-  .img7{
-    display: none;
-  }
-  .img8{
-    display: none;
-  }
-  
-
 }

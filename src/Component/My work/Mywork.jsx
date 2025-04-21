@@ -1,65 +1,76 @@
 import React from 'react'
-import './Mywork.css'
-// import mywork_data from './Assets/mywork-data'
-import arrow_icon from './fast-forward.png'
 import project1_img from './project1.jpg'
 import project2_img from './project2.jpg'
 import project3_img from './project3.jpg'
-// import project4_img from './project4.jpg'
-// import project5_img from './project5.jpg'
-// import project6_img from './project6.jpg'
+import project5_img from './project5.jpg'
 
 
-const mywork_data =[
-    {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
-    },
-    {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
-    },
-    {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
-    },
-    //  {
-    //     w_no:4,
-    //      w_name:"Web design",
-    //      w_img:project4_img
-    //   },
-    // {
-    //     w_no:5,
-    //     w_name:"Web design",
-    //     w_img:project5_img
-    // },
-    // {
-    //     w_no:6,
-    //     w_name:"Web design",
-    //     w_img:project6_img
-    // },
-]
+
 
 const Mywork = () => {
-  return (
-    <div id='project' className='mywork'>
-        <div className="mywork-title">
-            <h1>My Projects</h1>
-        </div>
-        <div className="mywork-container">
-     {mywork_data.map((Work,index)=>{
-        return <a href="/"><img key={index} src={Work.w_img} alt="#N" />Link</a>
-     })}
-        </div>
-       <div className="mywork-showmore">
-            <p>Show More</p>
-            <img src={arrow_icon} width={20} height={30}className='mt-2' alt="#N" />
-        </div>
+
+
+       return (
+        <div  id='project' class="container mb-lg-5">
+            <div class=" " style={{marginTop:200}}>
+                <h1  class="text-center text-info ">My project</h1>
+            </div>
+   <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 mt-5 gap-5 justify-content-around">
+   <div class="card" style={{width:"15rem"}}>
+  <img src={project1_img} class="card-img-top h-100 w-100" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Blog</h5>
+    <p class="card-text"> The frontend is designed to provide an intuitive interface where users can read posts, while the backend handles core functionalities, post creation, editing, deletion, and data storage.</p>
+    <div class="d-flex justify-content-around">
+    <a href="#" class="btn btn-primary">GitUp</a>
+    <a href="#" class="btn btn-primary">Project</a>
     </div>
-  )
+  </div>
+</div>
+
+<div class="card" style={{width:"15rem"}}>
+  <img src={project2_img} class="card-img-top h-100 w-100" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Todo List</h5>
+    <p class="card-text">The frontend provides users with a clean, responsive interface to add, view, edit, and delete tasks, while the backend handles data storage, user authentication, and task management logic.</p>
+    <div class="d-flex justify-content-around">
+    <a href="#" class="btn btn-primary ">GitUp</a>
+    <a href="#" class="btn btn-primary">Project</a>
+    </div>
+  </div>
+</div>
+
+<div class="card" style={{width:"15rem"}}>
+  <img src={project3_img} class="card-img-top h-100 w-100" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Ecomerce</h5>
+    <p class="card-text"> On the frontend, users can browse through visually appealing product cards, view detailed information, and add items to their cart. On the backend, order processing, and data storage.</p>
+    <div class="d-flex justify-content-around">
+    <a href="#" class="btn btn-primary">GitUp</a>
+    <a href="#" class="btn btn-primary">Project</a>
+    </div>
+  </div>
+</div>
+
+<div class="card" style={{width:"15rem"}}>
+  <img src={project5_img} class="card-img-top h-100 w-100" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Library</h5>
+    <p class="card-text"> In this library project, we use JavaScript's fetch method to retrieve book data from an external API. enabling connect with a remote server and dynamically display a list of books without needing to reload the page. </p>
+    <div class="d-flex justify-content-around">
+    <a href="#" class="btn btn-primary">GitUp</a>
+    <a href="#" class="btn btn-primary">Project</a>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+
+
+)
 }
+
 
 export default Mywork

@@ -16,10 +16,10 @@ export default function Portfolio() {
         <h1>Skills</h1>
         </div>
         <div className="port-content">
-          <div className='one'>
+          <div className='one h-75 fs-2'>
           <h1>Frontend</h1>
           
-          <FaHtml5 className='mx-3 img1 '/>
+          <FaHtml5 className='mx-3 img1'/>
           <FaCss3 className='mx-3 img2' />
           <FaBootstrap className='mx-3 img3'/>
           <FaJs className='mx-3 img4' />
@@ -27,7 +27,7 @@ export default function Portfolio() {
           </div>
           
 
-          <div className='one'> 
+          <div className='one h-75 fs-2'> 
           <h1>Backend</h1>
           <FaNodeJs className='mx-3 img9'/>
           <SiMongodb className='mx-3 img10'/>

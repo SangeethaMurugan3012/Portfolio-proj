@@ -3,7 +3,7 @@
     font-size: 50px;
     font-weight: 500;
     gap: 0px;
-    margin-top: 190px;
+     margin-top: 150px; 
 }
 .port-title h1{
     background: linear-gradient(270deg, #62a87b 50.41%, #ab2e41 90.25%);
@@ -11,6 +11,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     gap: 50px;
+    /* margin-top: -50px; */
 
 }
 .one{
@@ -41,6 +42,7 @@
     -webkit-text-fill-color: transparent;
     font-size: 30px;
     font-weight: 400;
+    /* margin-top: -100px; */
 
 }
 .img1{
